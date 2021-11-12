@@ -1,4 +1,6 @@
-export class Dish{
+import { Comment } from './comment';
+
+export class Dish {
     id: string;
     name: string;
     image: string;
@@ -6,5 +8,6 @@ export class Dish{
     featured: boolean;
     label: string;
     price: string;
-    description: string
+    description: string;
+    comments: Comment[];
 }
